@@ -1,0 +1,10 @@
+<h3>Name:{{$user->name}}</h3>
+<h3>UserName:{{$user->username}}</h3>
+<h3>Phone:0{{$user->phone}}</h3>
+<h3>@if($user->type==2)
+        user
+    @elseif($user->type==0)
+        admin
+    @else  
+        staff
+    @endif</h3>
