@@ -46,7 +46,7 @@ class ViewProfileController extends Controller
     public function show($id)
     {
         $user = User::findOrFail($id);
-        return view('auth\viewpf')->with('user',$user);
+        return view('auth.viewpf')->with('user',$user);
     }
 
     /**
