@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Providers;
-
+use Illuminate\Support\Facades\URL;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Http\Resources\Json\Resource;
 class AppServiceProvider extends ServiceProvider
@@ -24,6 +24,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //
+        URL::forceScheme('https');
         Resource::withoutWrapping();
     }
 }
