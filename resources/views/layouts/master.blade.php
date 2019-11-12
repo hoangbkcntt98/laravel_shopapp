@@ -6,14 +6,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title> @yield('title')</title>
-    <link href="layouts/css/bootstrap.min.css'" rel="stylesheet">
-    <link href="layouts/css/font-awesome.min.css'" rel="stylesheet">
-    <link href="layouts/css/prettyPhoto.css'" rel="stylesheet">
-    <link href="layouts/css/price-range.css'" rel="stylesheet">
-    <link href="layouts/css/animate.css'" rel="stylesheet">
-	<link href="layouts/css/main.css'" rel="stylesheet">
-	<link href="layouts/css/responsive.css'" rel="stylesheet">
-	<link rel="shortcut icon" href="layouts/images/ico/favicon.ico">
+    <link href=" layouts/css/bootstrap.min.css " rel="stylesheet">
+    <link href=" layouts/css/font-awesome.min.css " rel="stylesheet">
+    <link href=" layouts/css/prettyPhoto.css " rel="stylesheet">
+    <link href=" layouts/css/price-range.css " rel="stylesheet">
+    <link href=" layouts/css/animate.css " rel="stylesheet">
+	<link href=" layouts/css/main.css " rel="stylesheet">
+	<link href=" layouts/css/responsive.css " rel="stylesheet">
+	<link rel="shortcut icon" href=" layouts/images /ico/favicon.ico">
 	
 	<!-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> -->
 </head><!--/head-->
