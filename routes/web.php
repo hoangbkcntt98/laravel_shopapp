@@ -12,8 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('layouts.home');
+})->name('/');
 
 Auth::routes();
 Route::get('/viewprofile/{id}','ViewProfileController@show')->name('viewpf');

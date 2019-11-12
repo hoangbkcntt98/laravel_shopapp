@@ -1,3 +1,5 @@
+@extends('layouts.master')
+@section('content')
 <h3>Name:{{$user->name}}</h3>
 <h3>UserName:{{$user->username}}</h3>
 <h3>Phone:0{{$user->phone}}</h3>
@@ -8,3 +10,4 @@
     @else  
         staff
     @endif</h3>
+@endsection
